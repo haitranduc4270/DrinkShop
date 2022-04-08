@@ -1,0 +1,9 @@
+:root {
+    --color_1 : rgb(216,235,199);
+    --color_banner: rgba(216, 235, 199, 0.5);
+    --color_2 : rgba(175, 171, 171, 1);
+    --color_3 : rgb(135, 226, 55, 1);
+    --color_4: rgb(30, 43, 17);
+    --color_5: rgb(61,90,35);
+    --padding: 180px;
+}
