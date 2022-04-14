@@ -1,0 +1,424 @@
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+.c-banner {
+  height: 30px;
+  background-color: rgba(216, 235, 199, 0.5);
+  text-align: center;
+  border: none;
+  display: flex;
+  box-sizing: border-box; }
+  .c-banner p {
+    margin: auto;
+    padding: 0px;
+    color: #3d5a23; }
+
+.c-navbar {
+  height: 90px;
+  display: flex;
+  padding-left: 180px;
+  padding-right: 180px;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-top: 2px solid #3d5a23;
+  border-bottom: 2px solid #3d5a23;
+  box-sizing: border-box; }
+  .c-navbar__logo-navigation {
+    display: inline-flex; }
+  .c-navbar__logo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: normal;
+    color: #3d5a23;
+    text-decoration: none;
+    margin-right: 40px; }
+  .c-navbar__navigation {
+    display: flex; }
+    .c-navbar__navigation a {
+      margin-left: 15px;
+      margin-right: 15px;
+      margin-top: auto;
+      margin-bottom: auto;
+      text-decoration: none;
+      color: black; }
+      .c-navbar__navigation a:hover {
+        color: #3d5a23; }
+
+.c-user__login {
+  display: inline-flex;
+  background-color: white;
+  border: none;
+  margin-right: 45px; }
+  .c-user__login img {
+    height: 25px;
+    margin-right: 15px;
+    background-color: white; }
+  .c-user__login span {
+    height: 30px; }
+
+.c-user__cart {
+  display: inline-flex;
+  background-color: white;
+  border: none; }
+  .c-user__cart img {
+    height: 30px;
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: white; }
+
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+footer {
+  position: relative; }
+
+.c-footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #3d5a23;
+  border-bottom: 2px solid #3d5a23;
+  padding-left: 180px;
+  padding-right: 180px;
+  height: 230px; }
+  .c-footer__terms-conditions {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+    .c-footer__terms-conditions a {
+      margin-bottom: 20px;
+      text-decoration: none;
+      color: black; }
+      .c-footer__terms-conditions a:hover {
+        color: #3d5a23; }
+  .c-footer__cookie-policy {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+    .c-footer__cookie-policy a {
+      margin-bottom: 20px;
+      text-decoration: none;
+      color: black; }
+      .c-footer__cookie-policy a:hover {
+        color: #3d5a23; }
+  .c-footer__address {
+    margin-top: 40px;
+    margin-bottom: 40px; }
+    .c-footer__address p {
+      margin-bottom: 20px; }
+  .c-footer__contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+    .c-footer__contact a {
+      margin-bottom: 20px;
+      text-decoration: none;
+      color: black; }
+      .c-footer__contact a:hover {
+        color: #3d5a23; }
+
+footer .c-banner {
+  height: 50px;
+  background-color: rgba(216, 235, 199, 0.5);
+  text-align: center;
+  border: none;
+  display: flex;
+  box-sizing: border-box; }
+  footer .c-banner p {
+    margin: auto;
+    padding: 0px;
+    color: #3d5a23;
+    padding-top: 10px;
+    padding-bottom: 0px; }
+
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+.body {
+  padding-left: 180px;
+  padding-right: 180px; }
+
+.l-landing__header {
+  font-size: 40px;
+  font-weight: 500;
+  color: #3d5a23;
+  margin-top: 70px; }
+
+.l-landing__intro {
+  width: 500px;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px; }
+
+.l-landing__products {
+  display: flex;
+  flex-wrap: wrap; }
+
+.c-landing-product {
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+  flex-grow: 1;
+  box-sizing: border-box; }
+  .c-landing-product__thumbnail {
+    width: 300px;
+    height: 400px; }
+  .c-landing-product__name {
+    font-size: 25px;
+    color: #3d5a23;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 300px; }
+  .c-landing-product__price {
+    display: inline-flex;
+    margin: 10px;
+    margin-left: 0px; }
+  .c-landing-product__price p {
+    font-size: 20px;
+    margin-right: 5px;
+    font-style: italic;
+    font-weight: 400; }
+
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+.c-detail-product {
+  margin-top: 100px;
+  margin-bottom: 180px;
+  display: flex; }
+  .c-detail-product img {
+    height: 420px;
+    width: 320px; }
+  .c-detail-product .c-infor {
+    margin-left: 100px; }
+    .c-detail-product .c-infor__name {
+      font-size: 20pt;
+      margin-bottom: 15px;
+      font-family: 'Times New Roman', Times, serif; }
+    .c-detail-product .c-infor__cost {
+      display: flex;
+      justify-content: start;
+      font-size: 30pt;
+      font-style: italic;
+      color: #3d5a23;
+      margin-bottom: 30px; }
+      .c-detail-product .c-infor__cost p {
+        margin: 0px; }
+    .c-detail-product .c-infor__color {
+      display: flex;
+      justify-content: start;
+      flex-wrap: wrap;
+      margin-bottom: 15px; }
+      .c-detail-product .c-infor__color button {
+        border: 1px solid #8b9292;
+        margin-right: 10px;
+        height: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 10px;
+        background-color: inherit; }
+        .c-detail-product .c-infor__color button:focus {
+          border: 2px solid #87e237;
+          margin-right: 10px;
+          height: 30px;
+          padding-left: 10px;
+          padding-right: 10px;
+          margin-bottom: 10px;
+          background-color: inherit; }
+      .c-detail-product .c-infor__color span {
+        color: #8b9292;
+        width: 100px;
+        border: none;
+        padding-left: 0px; }
+    .c-detail-product .c-infor__size {
+      display: flex;
+      justify-content: start;
+      margin-bottom: 15px; }
+      .c-detail-product .c-infor__size button {
+        border: 1px solid #8b9292;
+        margin-right: 10px;
+        height: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 10px;
+        background-color: inherit; }
+        .c-detail-product .c-infor__size button:focus {
+          border: 2px solid #87e237;
+          margin-right: 10px;
+          height: 30px;
+          padding-left: 10px;
+          padding-right: 10px;
+          margin-bottom: 10px;
+          background-color: inherit; }
+      .c-detail-product .c-infor__size span {
+        color: #8b9292;
+        width: 100px;
+        border: none;
+        padding-left: 0px; }
+    .c-detail-product .c-infor__state {
+      display: flex;
+      justify-content: start;
+      margin-bottom: 30px; }
+      .c-detail-product .c-infor__state span {
+        color: #8b9292;
+        width: 100px;
+        border: none;
+        padding-left: 0px; }
+      .c-detail-product .c-infor__state p {
+        width: 70px;
+        height: 30px;
+        text-align: center;
+        border: 1px solid #8b9292;
+        border: none; }
+    .c-detail-product .c-infor__action {
+      display: flex;
+      justify-content: start;
+      margin-bottom: 15px; }
+    .c-detail-product .c-infor__add-to-cart {
+      border: 1px solid #3d5a23;
+      height: 50px;
+      font-size: 15pt;
+      font-family: 'Times New Roman', Times, serif;
+      width: 200px;
+      margin-right: 20px;
+      color: #3d5a23;
+      background-color: inherit; }
+    .c-detail-product .c-infor__buy {
+      border: none;
+      height: 50px;
+      font-size: 15pt;
+      font-family: 'Times New Roman', Times, serif;
+      width: 200px;
+      margin-right: 20px;
+      color: white;
+      background-color: #3d5a23; }
+
+.c-detail__header {
+  background-color: #f1f4f7;
+  margin: 30px;
+  height: 50px;
+  margin-left: 0px;
+  font-size: 14pt;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-left: 30px; }
+
+.c-detail .c-property {
+  display: flex;
+  margin-left: 30px;
+  margin-bottom: 16px; }
+  .c-detail .c-property__name {
+    color: #8b9292;
+    width: 300px; }
+
+.c-description {
+  margin-top: 20px; }
+  .c-description__header {
+    background-color: #f1f4f7;
+    margin: 30px;
+    height: 50px;
+    margin-left: 0px;
+    font-size: 14pt;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 30px; }
+  .c-description__description {
+    padding: 30px; }
+
+.l-cart {
+  position: fixed;
+  display: none;
+  right: 0px;
+  top: 0px;
+  height: 100%;
+  width: 30%;
+  background-color: #d6d1d1;
+  z-index: 3;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: scroll;
+  box-sizing: border-box; }
+  .l-cart::-webkit-scrollbar {
+    display: none; }
+  .l-cart .c-header {
+    padding-top: 30px;
+    color: #3d5a23;
+    margin-bottom: 5px; }
+    .l-cart .c-header__name {
+      font-weight: 700;
+      font-size: 30px; }
+    .l-cart .c-header__email {
+      font-size: 20px;
+      font-style: italic; }
+    .l-cart .c-header__close-button {
+      position: absolute;
+      top: 35px;
+      right: 20px;
+      border-radius: 9999px;
+      width: 35px;
+      height: 35px;
+      border: none; }
+      .l-cart .c-header__close-button span {
+        margin: auto; }
+  .l-cart hr {
+    margin-top: 16px;
+    margin-bottom: 16px; }
+  .l-cart .l-product-list {
+    margin-top: 20px; }
+    .l-cart .l-product-list .c-product-cart {
+      all: unset;
+      display: flex;
+      margin-bottom: 30px; }
+      .l-cart .l-product-list .c-product-cart__thumbnail {
+        height: 250px;
+        width: 190px; }
+      .l-cart .l-product-list .c-product-cart__infor {
+        margin-left: 20px; }
+      .l-cart .l-product-list .c-product-cart__name {
+        all: none;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        width: 100%;
+        color: #3d5a23;
+        margin-top: 10px;
+        margin-bottom: 0px; }
+      .l-cart .l-product-list .c-product-cart__price {
+        all: none;
+        display: flex;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        margin: 10px;
+        margin-left: 0px; }
+        .l-cart .l-product-list .c-product-cart__price p {
+          margin-right: 5px;
+          font-weight: 400; }
+      .l-cart .l-product-list .c-product-cart__buy-button {
+        border: none;
+        height: 40px;
+        font-size: 15pt;
+        font-family: 'Times New Roman', Times, serif;
+        width: 100px;
+        margin-right: 20px;
+        color: white;
+        background-color: #3d5a23; }

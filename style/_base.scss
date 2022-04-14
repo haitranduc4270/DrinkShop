@@ -1,0 +1,19 @@
+$color_1 : rgb(216,235,199);
+$color_banner: rgba(216, 235, 199, 0.5);
+$color_2 : rgba(175, 171, 171, 1);
+$color_3 : rgb(135, 226, 55);
+$color_4: rgb(30, 43, 17);
+$color_5: rgb(61,90,35);
+$padding: 180px;
+$bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+$width-props: 100px;
+$width-detail-props: 300px;
+$color_6: rgb(139, 146, 146);
+
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: $bs-font-sans-serif;
+}
+

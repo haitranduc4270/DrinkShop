@@ -1,0 +1,110 @@
+.l-cart {
+    position: fixed;
+    display: none;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    width: 30%;
+    background-color: rgb(214, 209, 209);
+    z-index: 3;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: scroll;
+    box-sizing: border-box;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    & .c-header {
+        padding-top: 30px;
+        color: $color_5;
+        margin-bottom: 5px;
+        
+        &__name {
+            font-weight: 700;
+            font-size: 30px;
+        }
+
+        &__email {
+            font-size: 20px;
+            font-style: italic;
+        }
+        &__close-button {
+            position: absolute;
+            top: 35px;
+            right: 20px;
+            border-radius: 9999px;
+            width: 35px;
+            height: 35px;
+            border: none;
+
+            & span {
+                margin: auto;
+            }
+        }
+    }
+    
+    & hr {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    & .l-product-list {
+        margin-top: 20px;
+
+        & .c-product-cart {
+            all: unset;
+            display: flex;
+            margin-bottom: 30px;
+
+            &__thumbnail {
+                height: 250px;
+                width: 190px;
+            }
+
+            &__infor {
+                margin-left: 20px;
+            }
+
+            &__name{
+                all: none;
+                font-size: 20px;
+                font-family: 'Times New Roman', Times, serif;
+                font-style: italic;
+                width: 100%;
+                color: $color_5;
+                margin-top: 10px;
+                margin-bottom: 0px;
+            }
+
+            &__price {
+                all: none;
+                display: flex;
+                font-size: 20px;
+                font-family: 'Times New Roman', Times, serif;
+                font-style: italic;
+                margin: 10px;
+                margin-left: 0px;
+
+                & p {
+                    margin-right: 5px;
+                    font-weight: 400;
+                }
+            }
+
+            &__buy-button {
+                border: none;
+                height: 40px;
+                font-size: 15pt;
+                font-family: 'Times New Roman', Times, serif;
+                width: 100px;
+                margin-right: 20px;
+                color: white;
+                background-color: $color_5;
+            }
+
+        }
+    }
+}
+

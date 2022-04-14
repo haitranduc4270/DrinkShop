@@ -1,0 +1,99 @@
+@import 'base';
+
+
+.c-banner {
+    height: 30px;
+    background-color: $color_banner;
+    text-align: center;
+    border: none;
+    display: flex;
+    box-sizing: border-box;
+
+    & p {
+        margin: auto;
+        padding: 0px;
+        color: $color_5;
+    }
+}
+
+
+.c-navbar {
+    height: 90px;
+    display: flex;
+    padding-left: $padding;
+    padding-right: $padding;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-top: 2px solid $color_5;
+    border-bottom: 2px solid $color_5;
+    box-sizing: border-box;
+
+    &__logo-navigation {
+        display: inline-flex;
+    }
+
+    &__logo {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: x-large;
+        font-weight: bolder;
+        font-style: normal;
+        color: $color_5;
+        text-decoration: none;
+        margin-right: 40px;
+    }
+
+    &__navigation {
+        display: flex;
+        
+        & a {
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: auto;
+            margin-bottom: auto;
+            text-decoration: none;
+            color:black;
+            
+            &:hover {
+                color: $color_5;
+            }
+        }
+    }
+}   
+
+
+.c-user {
+    &__login {
+        display: inline-flex;
+        background-color: white;
+        border: none;
+        margin-right: 45px;
+        
+        & img{
+            height: 25px;
+            margin-right: 15px;
+            background-color: white;
+        }
+
+        & span {
+            height: 30px;
+        }
+    }
+
+    &__cart{
+        display: inline-flex;
+        background-color: white;
+        border: none;
+
+        & img{
+            height: 30px;
+            margin-right: 10px;
+            margin-top: auto;
+            margin-bottom: auto;
+            background-color: white;
+        }
+    }
+}
+
+
