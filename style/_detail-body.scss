@@ -1,10 +1,17 @@
 @import 'base';
-
+@import 'responsive';
 
 .c-detail-product {
-    margin-top: 100px;
-    margin-bottom: 180px;
-    display: flex;
+    @include desktop {
+        display: flex;
+        flex-direction: row;
+        margin-top: 100px;
+        margin-bottom: 180px;
+    }
+
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 80px;
 
     & img {
         height: 420px;  
@@ -12,7 +19,11 @@
     }
 
     & .c-infor {
-        margin-left: 100px;
+        @include desktop {
+            margin-left: 100px;
+        }
+
+        margin-left: 0px;
 
         &__name {
             font-size: 20pt;
@@ -167,14 +178,28 @@
     }
 
     & .c-property {
+        @include mobile {
+            justify-content: space-between;
+        };
+
         display: flex;
         margin-left: 30px;
         margin-bottom: 16px;
 
         &__name {
+            @include mobile {
+                justify-content: space-between;
+                width: 50%;
+            };
+
             color: $color_6;
             width: $width-detail-props;
-        }   
+        } 
+
+        &__value {
+            margin-right: 30px;
+        }
+          
     }
 }
 

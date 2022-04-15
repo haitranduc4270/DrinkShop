@@ -1,6 +1,11 @@
 @import 'base';
+@import 'responsive';
 
 .body{
+    @include mobile {
+        margin-bottom: 30px;
+    }
+
     padding-left: $padding;
     padding-right: $padding;
 }
@@ -14,6 +19,10 @@
     }
 
     &__intro {
+        @include mobile {
+            width: 100%;
+        }
+
         width: 500px;
         font-size: 20px;
         margin-top: 25px;
@@ -29,16 +38,20 @@
 
 
 .c-landing-product {
+    @include mobile {
+        width: 100%;
+    }
+
     margin-right: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 300px;
+    max-width: 300px;
     flex-grow: 1;
     box-sizing: border-box;
 
     &__thumbnail {
-        width: 300px;
-        height: 400px;
+        width: 100%;
     }
 
     &__name {
@@ -46,7 +59,7 @@
         color: $color_5;
         margin-top: 10px;
         margin-bottom: 0px;
-        width: 300px;
+        width: 100%;
     }
 
     &__price {

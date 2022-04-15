@@ -1,18 +1,34 @@
 @import 'base';
+@import 'responsive';
 
 footer {
     position: relative;
 }
 
 .c-footer {
+    @include mobile {
+        flex-wrap: wrap;  
+    };
+
     display: flex;
     justify-content: space-between;
     border-top: 2px solid $color_5;
     border-bottom: 2px solid $color_5;
     padding-left: $padding;
     padding-right: $padding;
-    height: 230px;
+    min-height: 230px;
     
+    & > div {
+        @include mobile { 
+            margin: 0px; 
+            margin-top: 20px;
+        };
+
+        & > a, p {
+            margin-bottom: 5px;
+        }
+    }
+
     &__terms-conditions {
         display: flex;
         flex-direction: column;
