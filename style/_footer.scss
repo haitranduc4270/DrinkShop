@@ -1,0 +1,111 @@
+@import 'base';
+@import 'responsive';
+
+footer {
+    position: relative;
+}
+
+.c-footer {
+    @include mobile {
+        flex-wrap: wrap;  
+    };
+
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid $color_5;
+    border-bottom: 2px solid $color_5;
+    padding-left: $padding;
+    padding-right: $padding;
+    min-height: 230px;
+    
+    & > div {
+        @include mobile { 
+            margin: 0px; 
+            margin-top: 20px;
+        };
+
+        & > a, p {
+            margin-bottom: 5px;
+        }
+    }
+
+    &__terms-conditions {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+        & a {
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: black;
+
+            &:hover {
+                color: $color_5;
+            }
+        }
+    }
+
+    &__cookie-policy {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+        & a {
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: black;
+            
+            &:hover {
+                color: $color_5;
+            } 
+        }
+    }
+
+    &__address {
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+        & p {
+            margin-bottom: 20px;
+        }
+    }
+
+    &__contact {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        
+        & a {
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: black;
+            
+            &:hover {
+                color: $color_5;
+            }
+        }
+    }
+
+}
+
+footer .c-banner {
+    height: 50px;
+    background-color: $color_banner;
+    text-align: center;
+    border: none;
+    display: flex;
+    box-sizing: border-box;
+
+    & p {
+        margin: auto;
+        padding: 0px;
+        color: $color_5;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+
+}
+
